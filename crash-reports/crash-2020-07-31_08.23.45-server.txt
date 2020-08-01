@@ -1,0 +1,103 @@
+---- Minecraft Crash Report ----
+// Who set us up the TNT?
+
+Time: 7/31/20, 8:23 AM
+Description: Exception generating new chunk
+
+java.util.ConcurrentModificationException
+	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1134)
+	at cml.b(SourceFile:67)
+	at cml.a(SourceFile:57)
+	at clc$a.a(SourceFile:82)
+	at clc$a.<init>(SourceFile:71)
+	at clc.a(SourceFile:58)
+	at ceb$a.a(SourceFile:55)
+	at bzx.a(SourceFile:199)
+	at cab.d(SourceFile:51)
+	at cab.a(SourceFile:214)
+	at wp.a(SourceFile:548)
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38)
+	at wp.a(SourceFile:542)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1072)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)
+	at wr.b(SourceFile:58)
+	at ais.e(SourceFile:83)
+	at ais.a(SourceFile:123)
+	at ais.run(SourceFile:91)
+	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1426)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1134)
+	at cml.b(SourceFile:67)
+	at cml.a(SourceFile:57)
+	at clc$a.a(SourceFile:82)
+	at clc$a.<init>(SourceFile:71)
+	at clc.a(SourceFile:58)
+	at ceb$a.a(SourceFile:55)
+	at bzx.a(SourceFile:199)
+	at cab.d(SourceFile:51)
+	at cab.a(SourceFile:214)
+
+-- Chunk to be generated --
+Details:
+	Location: -47,40
+	Position hash: 176093659089
+	Generator: cbx@2abe36a0
+Stacktrace:
+	at wp.a(SourceFile:548)
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38)
+	at wp.a(SourceFile:542)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1072)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)
+	at wr.b(SourceFile:58)
+	at ais.e(SourceFile:83)
+	at ais.a(SourceFile:123)
+	at ais.run(SourceFile:91)
+	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1426)
+
+-- Affected level --
+Details:
+	All players: 1 total; [xe['mico19'/11189, l='world', x=-400.05, y=65.00, z=466.72]]
+	Chunk stats: ServerChunkCache: 3714
+	Level dimension: minecraft:overworld
+	Level name: world
+	Level seed: 9200035885725157336
+	Level generator: ID 00 - default, ver 1. Features enabled: true
+	Level generator options: {}
+	Level spawn location: World: (-144,66,-48), Chunk: (at 0,4,0 in -9,-3; contains blocks -144,0,-48 to -129,255,-33), Region: (-1,-1; contains chunks -32,-32 to -1,-1, blocks -512,0,-512 to -1,255,-1)
+	Level time: 1530788 game time, 1757960 day time
+	Level storage version: 0x04ABD - Anvil
+	Level weather: Rain time: 38661 (now: false), thunder time: 12920 (now: false)
+	Level game mode: Game mode: survival (ID 0). Hardcore: false. Cheats: false
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.b(SourceFile:850)
+	at wd.b(SourceFile:343)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:786)
+	at net.minecraft.server.MinecraftServer.run(SourceFile:654)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.15.1
+	Minecraft Version ID: 1.15.1
+	Operating System: Linux (amd64) version 5.3.0-1032-aws
+	Java Version: 11.0.8, Ubuntu
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Ubuntu
+	Memory: 530861400 bytes (506 MB) / 1073741824 bytes (1024 MB) up to 1073741824 bytes (1024 MB)
+	CPUs: 8
+	JVM Flags: 2 total; -Xmx1G -Xms1G
+	Player Count: 1 / 20; [xe['mico19'/11189, l='world', x=-400.05, y=65.00, z=466.72]]
+	Data Packs: vanilla
+	Is Modded: Unknown (can't tell)
+	Type: Dedicated Server (map_server.txt)
