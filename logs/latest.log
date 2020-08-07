@@ -1,19 +1,38 @@
-[00:14:19] [Server thread/INFO]: mico19 lost connection: Timed out
-[00:14:19] [Server thread/INFO]: mico19 left the game
-[00:14:37] [Server thread/INFO]: mico19[/36.72.218.65:6817] logged in with entity id 3089 at (-226.84136775610867, 69.0, 22.610082071103484)
-[00:14:37] [Server thread/INFO]: mico19 joined the game
-[00:25:17] [Server thread/WARN]: mico19 moved too quickly! -3.296642360626805,-1.5,-9.441747313880565
-[00:31:02] [Server console handler/ERROR]: Exception handling console input
-java.io.IOException: Input/output error
-	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
-	at java.io.FileInputStream.read(FileInputStream.java:279) ~[?:?]
-	at java.io.BufferedInputStream.read1(BufferedInputStream.java:290) ~[?:?]
-	at java.io.BufferedInputStream.read(BufferedInputStream.java:351) ~[?:?]
-	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284) ~[?:?]
-	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326) ~[?:?]
-	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178) ~[?:?]
-	at java.io.InputStreamReader.read(InputStreamReader.java:185) ~[?:?]
-	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:?]
-	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
-	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
-	at wd$2.run(SourceFile:109) [mcserver.jar:?]
+[08:39:58] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[08:39:58] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[08:39:58] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[08:39:58] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[08:39:58] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[08:39:58] [Server thread/INFO]: Starting minecraft server version 1.15.1
+[08:39:58] [Server thread/INFO]: Loading properties
+[08:39:58] [Server thread/INFO]: Default game type: SURVIVAL
+[08:39:58] [Server thread/INFO]: Generating keypair
+[08:39:58] [Server thread/INFO]: Starting Minecraft server on *:25565
+[08:39:59] [Server thread/INFO]: Using epoll channel type
+[08:39:59] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[08:39:59] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[08:39:59] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[08:39:59] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[08:39:59] [Server thread/INFO]: Preparing level "world"
+[08:39:59] [Server thread/INFO]: Reloading ResourceManager: Default
+[08:40:03] [Server thread/INFO]: Loaded 6 recipes
+[08:40:03] [Server thread/INFO]: Loaded 825 advancements
+[08:40:03] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[08:40:04] [Server thread/INFO]: Preparing spawn area: 0%
+[08:40:04] [Server thread/INFO]: Preparing spawn area: 0%
+[08:40:04] [Server thread/INFO]: Preparing spawn area: 0%
+[08:40:05] [Server thread/INFO]: Preparing spawn area: 89%
+[08:40:05] [Server thread/INFO]: Time elapsed: 1555 ms
+[08:40:05] [Server thread/INFO]: Done (6.315s)! For help, type "help"
+[08:40:10] [Server thread/INFO]: mico19[/36.72.218.65:2419] logged in with entity id 186 at (-209.39121535487917, 69.7531999805212, -18.47424397586385)
+[08:40:10] [Server thread/INFO]: mico19 joined the game
+[08:42:58] [Server thread/WARN]: mico19 moved too quickly! -10.157583493864479,1.0,0.45381467411169574
+[08:44:07] [Server thread/WARN]: mico19 moved too quickly! 9.969030013023769,0.0,0.7975604690108344
+[08:44:29] [Server thread/WARN]: mico19 moved too quickly! 9.875395352119199,1.0,-1.5498122262459946
+[08:45:09] [Server thread/WARN]: mico19 moved too quickly! 1.7509011080224468,3.0,9.397655813077947
+[08:45:36] [Server thread/WARN]: mico19 moved too quickly! 4.08473055758428,1.0,9.119607888767888
+[08:46:46] [Server thread/WARN]: mico19 moved too quickly! -3.475468919952853,9.349600162506547,-1.212499976158142
+[08:46:56] [Server thread/INFO]: mico19 lost connection: Timed out
+[08:46:56] [Server thread/INFO]: mico19 left the game
+[08:46:59] [Server thread/INFO]: mico19[/36.72.218.65:29676] logged in with entity id 1538 at (16.699999988079075, 72.23200016021772, 275.48750001192093)
+[08:46:59] [Server thread/INFO]: mico19 joined the game
