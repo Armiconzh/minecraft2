@@ -1,55 +1,250 @@
-[14:45:08] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[14:45:08] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[14:45:08] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[14:45:08] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[14:45:08] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[14:45:08] [Server thread/INFO]: Starting minecraft server version 1.15.1
-[14:45:08] [Server thread/INFO]: Loading properties
-[14:45:08] [Server thread/INFO]: Default game type: SURVIVAL
-[14:45:08] [Server thread/INFO]: Generating keypair
-[14:45:08] [Server thread/INFO]: Starting Minecraft server on *:25565
-[14:45:08] [Server thread/INFO]: Using epoll channel type
-[14:45:08] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[14:45:08] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[14:45:08] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[14:45:08] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[14:45:08] [Server thread/INFO]: Preparing level "world"
-[14:45:09] [Server thread/INFO]: Reloading ResourceManager: Default
-[14:45:11] [Server thread/INFO]: Loaded 6 recipes
-[14:45:13] [Server thread/INFO]: Loaded 825 advancements
-[14:45:13] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[14:45:14] [Server thread/INFO]: Preparing spawn area: 0%
-[14:45:14] [Server thread/INFO]: Preparing spawn area: 0%
-[14:45:14] [Server thread/INFO]: Preparing spawn area: 17%
-[14:45:15] [Server thread/INFO]: Time elapsed: 1266 ms
-[14:45:15] [Server thread/INFO]: Done (6.256s)! For help, type "help"
-[14:45:21] [Server thread/INFO]: mico19[/180.243.75.117:8992] logged in with entity id 64 at (39.048989394418356, 62.83979891535408, 275.8431244845168)
-[14:45:21] [Server thread/INFO]: mico19 joined the game
-[14:45:43] [Server thread/INFO]: <mico19> e
-[15:01:34] [Server thread/INFO]: Teleported mico19 to 0.5, 63.0, -1441.5
-[15:02:05] [Server thread/INFO]: mico19 lost connection: Timed out
-[15:02:05] [Server thread/INFO]: mico19 left the game
-[15:02:10] [Server thread/INFO]: mico19[/180.243.75.117:8996] logged in with entity id 2759 at (-0.3880879454288775, 62.0, -1439.728251326446)
-[15:02:10] [Server thread/INFO]: mico19 joined the game
-[15:03:14] [Server thread/WARN]: mico19 moved wrongly!
-[15:04:51] [Server thread/WARN]: mico19 moved wrongly!
-[15:06:05] [Server thread/INFO]: Gave 1 [Diamond Shovel] to mico19
-[15:21:20] [Server thread/WARN]: mico19 moved wrongly!
-[15:33:28] [Server thread/INFO]: mico19 lost connection: Timed out
-[15:33:28] [Server thread/INFO]: mico19 left the game
-[15:34:48] [Server thread/INFO]: mico19[/180.243.75.117:9016] logged in with entity id 7233 at (-0.8283014594234804, 62.0, -1440.9013749293986)
-[15:34:48] [Server thread/INFO]: mico19 joined the game
-[15:49:51] [Server console handler/ERROR]: Exception handling console input
-java.io.IOException: Input/output error
-	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
-	at java.io.FileInputStream.read(FileInputStream.java:279) ~[?:?]
-	at java.io.BufferedInputStream.read1(BufferedInputStream.java:290) ~[?:?]
-	at java.io.BufferedInputStream.read(BufferedInputStream.java:351) ~[?:?]
-	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284) ~[?:?]
-	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326) ~[?:?]
-	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178) ~[?:?]
-	at java.io.InputStreamReader.read(InputStreamReader.java:185) ~[?:?]
-	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:?]
-	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
-	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
-	at wd$2.run(SourceFile:109) [mcserver.jar:?]
+[05:46:46] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[05:46:46] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[05:46:46] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[05:46:46] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[05:46:46] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[05:46:46] [Server thread/INFO]: Starting minecraft server version 1.15.1
+[05:46:46] [Server thread/INFO]: Loading properties
+[05:46:46] [Server thread/INFO]: Default game type: SURVIVAL
+[05:46:46] [Server thread/INFO]: Generating keypair
+[05:46:46] [Server thread/INFO]: Starting Minecraft server on *:25565
+[05:46:46] [Server thread/INFO]: Using epoll channel type
+[05:46:46] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[05:46:47] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[05:46:47] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[05:46:47] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[05:46:47] [Server thread/INFO]: Preparing level "world"
+[05:46:47] [Server thread/INFO]: Reloading ResourceManager: Default
+[05:46:51] [Server thread/INFO]: Loaded 6 recipes
+[05:46:51] [Server thread/INFO]: Loaded 825 advancements
+[05:46:51] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[05:46:52] [Server thread/INFO]: Preparing spawn area: 0%
+[05:46:52] [Server thread/INFO]: Preparing spawn area: 0%
+[05:46:52] [Server thread/INFO]: Preparing spawn area: 8%
+[05:46:53] [Server thread/INFO]: Time elapsed: 1283 ms
+[05:46:53] [Server thread/INFO]: Done (6.012s)! For help, type "help"
+[05:47:03] [Server thread/INFO]: mico19[/180.243.75.117:10301] logged in with entity id 64 at (-0.6875000000000004, 62.07326525743691, -1441.3125)
+[05:47:03] [Server thread/INFO]: mico19 joined the game
+[05:47:03] [Server thread/WARN]: Keeping entity minecraft:boat that already exists with UUID b2c38794-90e3-401f-922f-3e8eaf4c4dc7
+[05:48:43] [Server thread/INFO]: Gave 1 [TNT] to mico19
+[05:49:20] [Server thread/INFO]: Gave 1 [TNT] to mico19
+[05:49:22] [Server thread/INFO]: Gave 1 [TNT] to mico19
+[05:49:22] [Server thread/INFO]: Gave 1 [TNT] to mico19
+[05:49:24] [Server thread/INFO]: Gave 1 [TNT] to mico19
+[05:49:25] [Server thread/INFO]: Gave 1 [TNT] to mico19
+[05:49:26] [Server thread/INFO]: Gave 1 [TNT] to mico19
+[05:49:27] [Server thread/INFO]: Gave 1 [TNT] to mico19
+[05:49:29] [Server thread/INFO]: Gave 1 [TNT] to mico19
+[05:49:30] [Server thread/INFO]: Gave 1 [TNT] to mico19
+[05:49:31] [Server thread/INFO]: Gave 1 [TNT] to mico19
+[05:49:32] [Server thread/INFO]: Gave 1 [TNT] to mico19
+[05:49:34] [Server thread/INFO]: Gave 1 [TNT] to mico19
+[05:49:35] [Server thread/INFO]: Gave 1 [TNT] to mico19
+[05:49:36] [Server thread/INFO]: Gave 1 [TNT] to mico19
+[05:49:37] [Server thread/INFO]: Gave 1 [TNT] to mico19
+[05:49:38] [Server thread/INFO]: Gave 1 [TNT] to mico19
+[05:49:39] [Server thread/INFO]: Gave 1 [TNT] to mico19
+[05:49:41] [Server thread/INFO]: Gave 1 [TNT] to mico19
+[05:49:42] [Server thread/INFO]: Gave 1 [TNT] to mico19
+[05:49:43] [Server thread/INFO]: Gave 1 [TNT] to mico19
+[05:49:44] [Server thread/INFO]: Gave 1 [TNT] to mico19
+[05:49:45] [Server thread/INFO]: Gave 1 [TNT] to mico19
+[05:49:46] [Server thread/INFO]: Gave 1 [TNT] to mico19
+[05:49:48] [Server thread/INFO]: Gave 1 [TNT] to mico19
+[05:49:49] [Server thread/INFO]: Gave 1 [TNT] to mico19
+[05:49:50] [Server thread/INFO]: Gave 1 [TNT] to mico19
+[05:49:52] [Server thread/INFO]: Gave 1 [TNT] to mico19
+[05:49:53] [Server thread/INFO]: Gave 1 [TNT] to mico19
+[05:49:55] [Server thread/INFO]: Gave 1 [TNT] to mico19
+[05:49:56] [Server thread/INFO]: Gave 1 [TNT] to mico19
+[05:49:58] [Server thread/INFO]: Gave 1 [TNT] to mico19
+[05:49:59] [Server thread/INFO]: Gave 1 [TNT] to mico19
+[05:50:01] [Server thread/INFO]: Gave 1 [TNT] to mico19
+[05:50:02] [Server thread/INFO]: Gave 1 [TNT] to mico19
+[05:50:03] [Server thread/INFO]: Gave 1 [TNT] to mico19
+[05:50:04] [Server thread/INFO]: Gave 1 [TNT] to mico19
+[05:50:06] [Server thread/INFO]: Gave 1 [TNT] to mico19
+[05:50:07] [Server thread/INFO]: Gave 1 [TNT] to mico19
+[05:50:12] [Server thread/INFO]: Gave 1 [Flint] to mico19
+[05:50:52] [Server thread/INFO]: Gave 1 [Iron Ingot] to mico19
+[05:51:07] [Server thread/INFO]: Unknown command
+[05:51:07] [Server thread/INFO]: :50:01] [Server thread/INFO]: Gave 1 [TNT] to mico19<--[HERE]
+[05:51:10] [Server thread/INFO]: Unknown command
+[05:51:10] [Server thread/INFO]: /giv:50:01] [Server thread/INFO]: Gave 1 [TNT] to mico19<--[HERE]
+[05:51:18] [Server thread/INFO]: Unknown command
+[05:51:18] [Server thread/INFO]: /giv/give mico19 tnt<--[HERE]
+[05:51:29] [Server thread/INFO]: Unknown command
+[05:51:29] [Server thread/INFO]: /givr mico 19 tnt<--[HERE]
+[05:51:39] [Server thread/INFO]: Gave 1 [TNT] to mico19
+[05:51:47] [Server thread/INFO]: Gave 1 [TNT] to mico19
+[05:53:10] [Server thread/WARN]: Fetching packet for removed entity avy['Sand'/1140, l='world', x=102.31, y=60.32, z=-1384.36]
+[05:53:10] [Server thread/WARN]: Fetching packet for removed entity avy['Sandstone'/1141, l='world', x=104.74, y=57.41, z=-1381.34]
+[05:53:10] [Server thread/WARN]: Fetching packet for removed entity avy['Cobblestone'/1142, l='world', x=105.60, y=57.48, z=-1382.75]
+[05:53:10] [Server thread/WARN]: Fetching packet for removed entity avy['Sand'/1143, l='world', x=107.38, y=59.68, z=-1383.63]
+[05:53:10] [Server thread/WARN]: Fetching packet for removed entity avy['Sandstone'/1144, l='world', x=103.31, y=57.73, z=-1381.68]
+[05:53:10] [Server thread/WARN]: Fetching packet for removed entity avy['Sandstone'/1145, l='world', x=106.29, y=58.35, z=-1384.39]
+[05:53:10] [Server thread/WARN]: Fetching packet for removed entity avy['Sand'/1146, l='world', x=103.45, y=61.63, z=-1384.48]
+[06:05:44] [Server thread/INFO]: Unknown item 'minecraft:potion_of_night_vision'
+[06:05:44] [Server thread/INFO]: ...ve mico19 potion_of_night_vision<--[HERE]
+[06:06:11] [Server thread/INFO]: Gave 1 [Uncraftable Potion] to mico19
+[06:07:35] [Server thread/INFO]: Unknown item 'minecraft:splash_potion_of_night_vision'
+[06:07:35] [Server thread/INFO]: ...ve mico19 splash_potion_of_night_vision<--[HERE]
+[06:09:37] [Server thread/INFO]: Gave 1 [Fermented Spider Eye] to mico19
+[06:09:58] [Server thread/INFO]: Gave 1 [Brewing Stand] to mico19
+[06:10:15] [Server thread/INFO]: Gave 1 [Redstone Dust] to mico19
+[06:10:53] [Server thread/INFO]: Gave 1 [Blaze Powder] to mico19
+[06:11:24] [Server thread/INFO]: Gave 1 [Uncraftable Potion] to mico19
+[06:11:40] [Server thread/INFO]: Gave 1 [Uncraftable Potion] to mico19
+[06:11:43] [Server thread/INFO]: Gave 1 [Uncraftable Potion] to mico19
+[06:11:44] [Server thread/INFO]: Gave 1 [Uncraftable Potion] to mico19
+[06:11:45] [Server thread/INFO]: Gave 1 [Uncraftable Potion] to mico19
+[06:11:45] [Server thread/INFO]: Gave 1 [Uncraftable Potion] to mico19
+[06:11:46] [Server thread/INFO]: Gave 1 [Uncraftable Potion] to mico19
+[06:11:46] [Server thread/INFO]: Gave 1 [Uncraftable Potion] to mico19
+[06:11:47] [Server thread/INFO]: Gave 1 [Uncraftable Potion] to mico19
+[06:11:48] [Server thread/INFO]: Gave 1 [Uncraftable Potion] to mico19
+[06:11:50] [Server thread/INFO]: Unknown item 'minecraft:potion/give'
+[06:11:50] [Server thread/INFO]: ...ve mico19 potion/give mico19 potion<--[HERE]
+[06:11:52] [Server thread/INFO]: Gave 1 [Uncraftable Potion] to mico19
+[06:12:07] [Server thread/INFO]: mico19 has made the advancement [Local Brewery]
+[06:13:09] [Server thread/INFO]: Unknown item 'minecraft:nether_wrat'
+[06:13:09] [Server thread/INFO]: ...ve mico19 nether_wrat<--[HERE]
+[06:13:24] [Server thread/INFO]: Gave 1 [Nether Wart] to mico19
+[06:13:36] [Server thread/INFO]: Unknown item 'minecraft:puffer_fish'
+[06:13:36] [Server thread/INFO]: ...ve mico19 puffer_fish<--[HERE]
+[06:14:05] [Server thread/INFO]: Unknown item 'minecraft:puffer_fish'
+[06:14:05] [Server thread/INFO]: ...ve mico19 puffer_fish<--[HERE]
+[06:14:57] [Server thread/INFO]: Gave 1 [Pufferfish] to mico19
+[06:19:49] [Server thread/INFO]: Gave 1 [Golden Carrot] to mico19
+[06:21:50] [Server thread/INFO]: Gave 1 [Redstone Dust] to mico19
+[06:24:05] [Server thread/INFO]: Gave 1 [Nether Wart] to mico19
+[06:25:03] [Server thread/INFO]: Gave 1 [Redstone Dust] to mico19
+[06:40:46] [Server thread/INFO]: Unknown item 'minecraft:treasure_map'
+[06:40:46] [Server thread/INFO]: ...ve mico19 treasure_map<--[HERE]
+[06:41:20] [Server thread/INFO]: Unknown item 'minecraft:buried_treasure_map'
+[06:41:20] [Server thread/INFO]: ...ve mico19 buried_treasure_map<--[HERE]
+[06:54:16] [Server thread/INFO]: mico19 drowned
+[07:06:23] [Server thread/INFO]: mico19 was slain by Zombie
+[07:07:41] [Server thread/INFO]: mico19 was slain by Spider
+[07:09:27] [Server thread/INFO]: mico19 was blown up by Creeper
+[07:10:17] [Server thread/INFO]: mico19 was shot by Skeleton
+[07:11:20] [Server thread/INFO]: mico19 was shot by Skeleton
+[07:12:48] [Server thread/INFO]: mico19 was shot by Skeleton
+[07:24:33] [Server thread/INFO]: mico19 lost connection: Disconnected
+[07:24:33] [Server thread/INFO]: mico19 left the game
+[07:26:30] [Server thread/INFO]: mdffkr[/36.68.70.13:57112] logged in with entity id 13232 at (16.30000001192093, 69.0, 276.47654738777504)
+[07:26:30] [Server thread/INFO]: mdffkr joined the game
+[07:51:58] [Server thread/INFO]: mdffkr has made the advancement [A Seedy Place]
+[07:56:20] [Server thread/INFO]: mdffkr was slain by Spider
+[07:56:25] [Server thread/INFO]: mdffkr lost connection: Disconnected
+[07:56:25] [Server thread/INFO]: mdffkr left the game
+[08:03:38] [Server thread/INFO]: mico19[/180.243.75.117:10633] logged in with entity id 17907 at (-5.648753984697843, 64.0, 252.83508869086944)
+[08:03:38] [Server thread/INFO]: mico19 joined the game
+[08:10:52] [Server thread/INFO]: No entity was found
+[08:11:10] [Server thread/INFO]: Unknown selector type '@c'
+[08:11:10] [Server thread/INFO]: /kill @creepers<--[HERE]
+[08:11:59] [Server thread/INFO]: mico19 fell out of the world
+[08:11:59] [Server thread/INFO]: Killed 203 entities
+[08:12:09] [Server thread/INFO]: Killed 185 entities
+[08:12:15] [Server thread/INFO]: Killed 36 entities
+[08:12:20] [Server thread/INFO]: No entity was found
+[08:12:25] [Server thread/INFO]: No entity was found
+[08:13:52] [Server thread/INFO]: Gave 1 [Iron Axe] to mico19
+[08:18:00] [Server thread/WARN]: mico19 moved too quickly! -2.9184127477862205,0.0,-9.671447310875344
+[08:28:10] [Server thread/INFO]: mico19 lost connection: Disconnected
+[08:28:10] [Server thread/INFO]: mico19 left the game
+[08:28:10] [Server thread/WARN]: handleDisconnection() called twice
+[08:28:24] [Server thread/INFO]: mico19[/180.243.75.117:10650] logged in with entity id 22305 at (-256.6644667866093, 71.0, -20.24100982316608)
+[08:28:24] [Server thread/INFO]: mico19 joined the game
+[08:28:46] [Server thread/INFO]: Unknown item 'minecraft:potion/give'
+[08:28:46] [Server thread/INFO]: ...ve mico19 potion/give mico19//give mico19 horse_spawn<--[HERE]
+[08:29:01] [Server thread/INFO]: Unknown item 'minecraft:horse_egg'
+[08:29:01] [Server thread/INFO]: ...ve mico19 horse_egg<--[HERE]
+[08:30:04] [Server thread/INFO]: Unknown item 'minecraft:spawn_horse'
+[08:30:04] [Server thread/INFO]: ...ve mico19 spawn_horse<--[HERE]
+[08:30:17] [Server thread/INFO]: Unknown item 'minecraft:spawn_cow'
+[08:30:17] [Server thread/INFO]: ...ve mico19 spawn_cow<--[HERE]
+[08:30:34] [Server thread/INFO]: mico19 was shot by Skeleton
+[08:31:31] [Server thread/INFO]: mico19 was slain by Zombie
+[08:32:22] [Server thread/INFO]: mico19 fell out of the world
+[08:32:22] [Server thread/INFO]: Killed 182 entities
+[08:32:36] [Server thread/INFO]: mico19 fell out of the world
+[08:32:36] [Server thread/INFO]: Killed 229 entities
+[08:32:43] [Server thread/INFO]: Unknown command
+[08:32:43] [Server thread/INFO]: /kill@e<--[HERE]
+[08:32:49] [Server thread/INFO]: Killed 129 entities
+[08:32:56] [Server thread/INFO]: Killed 39 entities
+[08:33:05] [Server thread/INFO]: No entity was found
+[08:33:07] [Server thread/WARN]: Fetching packet for removed entity avy['Raw Cod'/23355, l='world', x=-258.42, y=62.57, z=-67.01]
+[08:33:07] [Server thread/WARN]: Fetching packet for removed entity avy['Raw Cod'/23360, l='world', x=-248.62, y=59.92, z=-64.07]
+[08:33:07] [Server thread/WARN]: Fetching packet for removed entity avy['Raw Cod'/23356, l='world', x=-251.76, y=61.67, z=-64.38]
+[08:33:07] [Server thread/WARN]: Fetching packet for removed entity avy['Raw Cod'/23361, l='world', x=-251.90, y=59.78, z=-68.88]
+[08:33:07] [Server thread/WARN]: Fetching packet for removed entity avy['Raw Cod'/23363, l='world', x=-252.93, y=59.74, z=-64.99]
+[08:33:07] [Server thread/WARN]: Fetching packet for removed entity avy['Raw Cod'/23362, l='world', x=-254.86, y=58.64, z=-65.31]
+[08:33:07] [Server thread/WARN]: Fetching packet for removed entity avy['Raw Cod'/23358, l='world', x=-247.99, y=58.89, z=-66.31]
+[08:33:07] [Server thread/WARN]: Fetching packet for removed entity avy['Bone Meal'/23359, l='world', x=-249.07, y=58.89, z=-67.10]
+[08:33:07] [Server thread/WARN]: Fetching packet for removed entity avy['Bone Meal'/23357, l='world', x=-255.26, y=61.67, z=-63.85]
+[08:33:07] [Server thread/WARN]: Fetching packet for removed entity avy['Raw Cod'/23354, l='world', x=-255.61, y=62.16, z=-63.47]
+[08:33:07] [Server thread/WARN]: Fetching packet for removed entity avy['Rotten Flesh'/23391, l='world', x=-225.13, y=40.00, z=-46.88]
+[08:33:38] [Server thread/INFO]: Gave 1 [Birch Fence] to mico19
+[08:34:17] [Server thread/INFO]: Gave 1 [Oak Fence] to mico19
+[08:34:48] [Server thread/WARN]: mico19 moved too quickly! -9.846028990573416,1.0,-1.625374305881678
+[08:35:13] [Server thread/INFO]: Unknown command
+[08:35:13] [Server thread/INFO]: /kill @e<--[HERE]
+[08:35:16] [Server thread/INFO]: mico19 was slain by Zombie
+[08:35:25] [Server thread/INFO]: Killed 170 entities
+[08:35:32] [Server thread/INFO]: Killed 144 entities
+[08:35:42] [Server thread/INFO]: No entity was found
+[08:36:33] [Server thread/INFO]: Summoned new Cow
+[08:36:49] [Server thread/INFO]: Summoned new Cow
+[08:37:05] [Server thread/INFO]: Summoned new Chicken
+[08:37:20] [Server thread/INFO]: Summoned new Chicken
+[08:37:32] [Server thread/INFO]: Summoned new Sheep
+[08:37:46] [Server thread/INFO]: Summoned new Sheep
+[08:39:03] [Server thread/INFO]: Summoned new Horse
+[08:39:04] [Server thread/INFO]: Summoned new Horse
+[08:39:06] [Server thread/INFO]: Summoned new Horse
+[08:39:07] [Server thread/INFO]: Summoned new Horse
+[08:39:08] [Server thread/INFO]: Summoned new Horse
+[08:40:00] [Server thread/INFO]: Summoned new Horse
+[08:40:01] [Server thread/INFO]: Summoned new Horse
+[08:40:02] [Server thread/INFO]: Summoned new Horse
+[08:40:04] [Server thread/INFO]: Summoned new Horse
+[08:40:05] [Server thread/INFO]: Summoned new Horse
+[08:40:06] [Server thread/INFO]: Summoned new Horse
+[08:40:07] [Server thread/INFO]: Summoned new Horse
+[08:40:08] [Server thread/INFO]: Summoned new Horse
+[08:40:09] [Server thread/INFO]: Summoned new Horse
+[08:40:10] [Server thread/INFO]: Summoned new Horse
+[08:40:11] [Server thread/INFO]: Summoned new Horse
+[08:40:13] [Server thread/INFO]: Summoned new Horse
+[08:40:35] [Server thread/INFO]: Summoned new Horse
+[08:40:36] [Server thread/INFO]: Summoned new Horse
+[08:40:37] [Server thread/INFO]: Summoned new Horse
+[08:40:38] [Server thread/INFO]: Summoned new Horse
+[08:40:39] [Server thread/INFO]: Summoned new Horse
+[08:47:28] [Server thread/INFO]: mico19 has made the advancement [Take Aim]
+[08:48:19] [Server thread/INFO]: Gave 1 [Saddle] to mico19
+[08:50:41] [Server thread/INFO]: mico19 lost connection: Timed out
+[08:50:41] [Server thread/INFO]: mico19 left the game
+[08:50:45] [Server thread/INFO]: mico19[/180.243.75.117:10658] logged in with entity id 26233 at (-211.2193382391951, 69.0, -18.750413346186246)
+[08:50:45] [Server thread/INFO]: mico19 joined the game
+[08:51:02] [Server thread/INFO]: <mico19> w
+[08:53:59] [Server thread/INFO]: Unknown item 'minecraft:rope'
+[08:53:59] [Server thread/INFO]: ...ve mico19 rope<--[HERE]
+[08:54:18] [Server thread/INFO]: Gave 1 [Golden Horse Armor] to mico19
+[08:55:02] [Server thread/INFO]: Gave 1 [Lead] to mico19
+[08:55:37] [Server thread/INFO]: Gave 1 [Diamond Horse Armor] to mico19
+[09:12:35] [Server thread/INFO]: Stopping the server
+[09:12:35] [Server thread/INFO]: Stopping server
+[09:12:35] [Server thread/INFO]: Saving players
+[09:12:35] [Server thread/INFO]: Saving worlds
+[09:12:35] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_nether
+[09:12:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[09:12:35] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[09:12:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[09:12:35] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_end
+[09:12:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[09:12:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[09:12:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[09:12:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
