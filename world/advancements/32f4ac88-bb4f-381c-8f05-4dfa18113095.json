@@ -843,6 +843,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stripped_dark_oak_wood": {
+    "criteria": {
+      "has_log": "2020-08-19 17:38:39 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/diorite_stairs_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2020-07-29 11:37:01 +0000"
@@ -1684,6 +1690,7 @@
       "sweet_berries": "2020-08-07 14:26:22 +0000",
       "cooked_beef": "2020-08-01 03:23:53 +0000",
       "beef": "2020-08-07 08:19:58 +0000",
+      "baked_potato": "2020-08-19 18:04:03 +0000",
       "apple": "2020-08-08 13:44:06 +0000",
       "potato": "2020-08-07 09:20:06 +0000",
       "mutton": "2020-07-31 06:24:26 +0000",
