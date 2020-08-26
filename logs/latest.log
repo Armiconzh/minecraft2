@@ -1,48 +1,40 @@
-[10:38:56] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[10:38:56] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[10:38:57] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[10:38:57] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[10:38:57] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[10:38:57] [Server thread/INFO]: Starting minecraft server version 1.15.1
-[10:38:57] [Server thread/INFO]: Loading properties
-[10:38:57] [Server thread/INFO]: Default game type: SURVIVAL
-[10:38:57] [Server thread/INFO]: Generating keypair
-[10:38:57] [Server thread/INFO]: Starting Minecraft server on *:25565
-[10:38:57] [Server thread/INFO]: Using epoll channel type
-[10:38:57] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[10:38:57] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[10:38:57] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[10:38:57] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[10:38:57] [Server thread/INFO]: Preparing level "world"
-[10:38:57] [Server thread/INFO]: Reloading ResourceManager: Default
-[10:39:02] [Server thread/INFO]: Loaded 6 recipes
-[10:39:02] [Server thread/INFO]: Loaded 825 advancements
-[10:39:02] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[10:39:03] [Server thread/INFO]: Preparing spawn area: 0%
-[10:39:03] [Server thread/INFO]: Preparing spawn area: 0%
-[10:39:03] [Server thread/INFO]: Preparing spawn area: 34%
-[10:39:04] [Server thread/INFO]: Time elapsed: 1370 ms
-[10:39:04] [Server thread/INFO]: Done (6.318s)! For help, type "help"
-[10:39:10] [Server thread/INFO]: mico19[/180.254.18.40:3238] logged in with entity id 206 at (-200.277861884557, 69.0, -24.268082259871797)
-[10:39:10] [Server thread/INFO]: mico19 joined the game
-[10:41:11] [Server thread/WARN]: mico19 moved too quickly! -0.9120829817370293,0.0,-10.098741186373307
-[10:46:44] [Server thread/WARN]: mico19 moved too quickly! -0.8668409180379513,0.0,-10.041091792798921
-[10:46:54] [Server thread/WARN]: mico19 moved too quickly! 3.0444546453775274,-0.7684762024129839,-9.632566033353323
-[10:51:13] [Server thread/INFO]: Set mico19's game mode to Creative Mode
-[10:54:19] [Server thread/INFO]: Set mico19's game mode to Survival Mode
-[10:58:46] [Server thread/WARN]: mico19 moved too quickly! 2.891138447897731,-1.0,-9.671312664763207
-[11:48:31] [Server thread/INFO]: mico19 has made the advancement [Ol' Betsy]
-[11:51:26] [Server console handler/ERROR]: Exception handling console input
-java.io.IOException: Input/output error
-	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
-	at java.io.FileInputStream.read(FileInputStream.java:279) ~[?:?]
-	at java.io.BufferedInputStream.read1(BufferedInputStream.java:290) ~[?:?]
-	at java.io.BufferedInputStream.read(BufferedInputStream.java:351) ~[?:?]
-	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284) ~[?:?]
-	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326) ~[?:?]
-	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178) ~[?:?]
-	at java.io.InputStreamReader.read(InputStreamReader.java:185) ~[?:?]
-	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:?]
-	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
-	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
-	at wd$2.run(SourceFile:109) [mcserver.jar:?]
+[11:53:54] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[11:53:54] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[11:53:54] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[11:53:54] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[11:53:54] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[11:53:54] [Server thread/INFO]: Starting minecraft server version 1.15.1
+[11:53:54] [Server thread/INFO]: Loading properties
+[11:53:54] [Server thread/INFO]: Default game type: SURVIVAL
+[11:53:54] [Server thread/INFO]: Generating keypair
+[11:53:55] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:53:55] [Server thread/INFO]: Using epoll channel type
+[11:53:55] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[11:53:55] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[11:53:55] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[11:53:55] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[11:53:55] [Server thread/INFO]: Preparing level "world"
+[11:53:55] [Server thread/INFO]: Reloading ResourceManager: Default
+[11:53:59] [Server thread/INFO]: Loaded 6 recipes
+[11:54:00] [Server thread/INFO]: Loaded 825 advancements
+[11:54:00] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[11:54:01] [Server thread/INFO]: Preparing spawn area: 0%
+[11:54:01] [Server thread/INFO]: Preparing spawn area: 0%
+[11:54:01] [Server thread/INFO]: Preparing spawn area: 0%
+[11:54:01] [Server thread/INFO]: Time elapsed: 1306 ms
+[11:54:01] [Server thread/INFO]: Done (6.224s)! For help, type "help"
+[11:54:09] [Server thread/INFO]: Summoned new Bee
+[11:54:16] [Server thread/INFO]: Summoned new Bee
+[11:54:21] [Server thread/INFO]: Stopping the server
+[11:54:21] [Server thread/INFO]: Stopping server
+[11:54:21] [Server thread/INFO]: Saving players
+[11:54:21] [Server thread/INFO]: Saving worlds
+[11:54:21] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_end
+[11:54:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:54:21] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[11:54:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[11:54:21] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_nether
+[11:54:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11:54:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:54:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[11:54:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
