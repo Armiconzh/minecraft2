@@ -1,40 +1,53 @@
-[11:53:54] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[11:53:54] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[11:53:54] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[11:53:54] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[11:53:54] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[11:53:54] [Server thread/INFO]: Starting minecraft server version 1.15.1
-[11:53:54] [Server thread/INFO]: Loading properties
-[11:53:54] [Server thread/INFO]: Default game type: SURVIVAL
-[11:53:54] [Server thread/INFO]: Generating keypair
-[11:53:55] [Server thread/INFO]: Starting Minecraft server on *:25565
-[11:53:55] [Server thread/INFO]: Using epoll channel type
-[11:53:55] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[11:53:55] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[11:53:55] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[11:53:55] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[11:53:55] [Server thread/INFO]: Preparing level "world"
-[11:53:55] [Server thread/INFO]: Reloading ResourceManager: Default
-[11:53:59] [Server thread/INFO]: Loaded 6 recipes
-[11:54:00] [Server thread/INFO]: Loaded 825 advancements
-[11:54:00] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[11:54:01] [Server thread/INFO]: Preparing spawn area: 0%
-[11:54:01] [Server thread/INFO]: Preparing spawn area: 0%
-[11:54:01] [Server thread/INFO]: Preparing spawn area: 0%
-[11:54:01] [Server thread/INFO]: Time elapsed: 1306 ms
-[11:54:01] [Server thread/INFO]: Done (6.224s)! For help, type "help"
-[11:54:09] [Server thread/INFO]: Summoned new Bee
-[11:54:16] [Server thread/INFO]: Summoned new Bee
-[11:54:21] [Server thread/INFO]: Stopping the server
-[11:54:21] [Server thread/INFO]: Stopping server
-[11:54:21] [Server thread/INFO]: Saving players
-[11:54:21] [Server thread/INFO]: Saving worlds
-[11:54:21] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_end
-[11:54:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[11:54:21] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
-[11:54:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[11:54:21] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_nether
-[11:54:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[11:54:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[11:54:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[11:54:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:12:15] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[14:12:15] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[14:12:15] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[14:12:15] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[14:12:15] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[14:12:16] [Server thread/INFO]: Starting minecraft server version 1.15.1
+[14:12:16] [Server thread/INFO]: Loading properties
+[14:12:16] [Server thread/INFO]: Default game type: SURVIVAL
+[14:12:16] [Server thread/INFO]: Generating keypair
+[14:12:16] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:12:16] [Server thread/INFO]: Using epoll channel type
+[14:12:16] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:12:16] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:12:16] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14:12:16] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:12:16] [Server thread/INFO]: Preparing level "world"
+[14:12:16] [Server thread/INFO]: Reloading ResourceManager: Default
+[14:12:21] [Server thread/INFO]: Loaded 6 recipes
+[14:12:21] [Server thread/INFO]: Loaded 825 advancements
+[14:12:21] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:12:22] [Server thread/INFO]: Preparing spawn area: 0%
+[14:12:22] [Server thread/INFO]: Preparing spawn area: 0%
+[14:12:22] [Server thread/INFO]: Preparing spawn area: 20%
+[14:12:22] [Server thread/INFO]: Time elapsed: 1194 ms
+[14:12:22] [Server thread/INFO]: Done (6.236s)! For help, type "help"
+[14:12:23] [Server thread/INFO]: mico19[/180.254.18.40:3503] logged in with entity id 197 at (-293.55243860169276, 68.0, -65.21616542113092)
+[14:12:23] [Server thread/INFO]: mico19 joined the game
+[14:28:24] [Server thread/INFO]: mico19 lost connection: Timed out
+[14:28:24] [Server thread/INFO]: mico19 left the game
+[14:33:25] [Server thread/INFO]: mico19[/180.254.18.40:3513] logged in with entity id 2289 at (-204.02075043065034, 69.0, -19.92505375836594)
+[14:33:25] [Server thread/INFO]: mico19 joined the game
+[14:33:40] [Server thread/INFO]: mico19 lost connection: Timed out
+[14:33:40] [Server thread/INFO]: mico19 left the game
+[14:45:02] [Server thread/INFO]: mico19[/180.254.18.40:3518] logged in with entity id 2327 at (-203.24996922992318, 70.20000004768372, -13.975183850612979)
+[14:45:02] [Server thread/INFO]: mico19 joined the game
+[14:45:19] [Server thread/INFO]: mico19 lost connection: Disconnected
+[14:45:19] [Server thread/INFO]: mico19 left the game
+[14:45:22] [Server thread/INFO]: mico19[/180.254.18.40:3519] logged in with entity id 2351 at (-206.30000001192093, 67.08311577129265, -15.300000011920929)
+[14:45:23] [Server thread/INFO]: mico19 joined the game
+[15:35:37] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Input/output error
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:279) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:290) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:351) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:185) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
+	at wd$2.run(SourceFile:109) [mcserver.jar:?]
